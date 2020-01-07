@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Sachbearbeitererzeugen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sachbearbeiter Erzeugen" />
+
+    <Button
+        android:id="@+id/Adminsachbearbeitereditieren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sachbearbeiter editieren" />
+
+    <Button
+        android:id="@+id/Adminsachbearbeiterloeschen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sachbearbeiter loeschen" />
+
+    <Button
+        android:id="@+id/adminforbildungzuweisen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forbildung zuweisen" />
+
+    <Button
+        android:id="@+id/Adminfortbildungloeschen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forbildung loeschen" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IU4</string>
+    <string name="UI">IU4</string>
+    <string name="title_activity_lehrveranstaltungsverwaltunghs">lehrveranstaltungsverwaltunghs
+    </string>
+    <string name="loginText" />
+    <string name="logintext" />
+    <string name="Login" />
+    <string name="sachbearbeiterrdb" />
+    <string name="adminrdb" />
+    <string name="Benutzername" />
+
+</resources>

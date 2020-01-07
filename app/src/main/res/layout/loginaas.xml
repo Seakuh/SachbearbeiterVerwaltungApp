@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Einloggentext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Einloggen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <fragment
+        android:id="@+id/sachbearbeiter_name_s"
+        android:name="com.example.iu4.SachbearbeiterNameS"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/sachbearbeiter_passwort_loginaas"
+        android:name="com.example.iu4.SachbearbeiterPasswortS"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/sachbearbeiter_berechtigung_s"
+        android:name="com.example.iu4.SachbearbeiterBerechtigungS"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/sachbearbeiter_ok_knopf_s"
+        android:name="com.example.iu4.SachbearbeiterOKKnopfS"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+</LinearLayout>
+
