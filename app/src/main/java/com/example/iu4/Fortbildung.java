@@ -3,7 +3,6 @@ package com.example.iu4;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Scanner;
 
 
 public class Fortbildung {
@@ -62,21 +61,11 @@ public class Fortbildung {
     }
 
     public static Fortbildung gib(String name) {
-        int k = 3;
-        for (int i = 0; i < 3; i++) {
-            for (Fortbildung f : fortbildungen) {
-                if (f.titel.equals(name)) {
-                    return f;
-                }
+        for (Fortbildung f : fortbildungen) {
+            if (f.titel.equals(name)) {
+                return f;
             }
-            k = k - i;
-            System.out.println("Keine Fortbildung Namens " + name);
-            System.out.println("Anzahl Versuche: " + k);
-            System.out.println("Geben Sie eine der folgenden Fortbildungen ein:");
-            Fortbildung.druckeAlleFortbildungen();
-            Scanner fortb = new Scanner(System.in);
-            String fort = fortb.nextLine();
-            name = fort;
+
         }
         return null;
     }

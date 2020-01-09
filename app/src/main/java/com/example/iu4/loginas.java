@@ -53,7 +53,7 @@ public class loginas extends SachbearbeiterS {
 
 
             } else if (normal) {
-                if (kontrolle.kontrolleEingabe(benutzername, passwort).equals("normal")) {
+                if (kontrolle.kontrolleEingabe(benutzername, passwort).equals("normal") || kontrolle.kontrolleEingabe(benutzername, passwort).equals("admin")) {
                     Intent intent = new Intent(act, SachbearbeiterAS.class);
                     act.startActivity(intent);
                 } else {

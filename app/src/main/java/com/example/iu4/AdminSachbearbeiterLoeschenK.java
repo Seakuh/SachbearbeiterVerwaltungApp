@@ -15,7 +15,7 @@ public class AdminSachbearbeiterLoeschenK {
     public void loescheSachbearbeiter(String name1) {
         SachbearbeiterEK name = SachbearbeiterEK.gib(name1);
         System.out.println(">> " + name.getBenutzerName() + " wurde gelöscht");
-
+        name.delete();
         System.out.println("");
         SachbearbeiterEK.druckeAlleNamen();
     }

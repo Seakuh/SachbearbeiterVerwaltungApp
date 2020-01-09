@@ -11,6 +11,11 @@ public class SachbearbeiterEK {
     private String berechtigung;
     private String benutzerName;
     private static HashSet<SachbearbeiterEK> sachBearbeiter = new HashSet<SachbearbeiterEK>();
+
+    public Map<Fortbildung, String> getFortbildungen() {
+        return fortbildungen;
+    }
+
     private Map<Fortbildung, String> fortbildungen = new HashMap<Fortbildung, String>();
 
     SachbearbeiterEK(String benutzername, String Passwort, String Berechtigung) {
@@ -190,7 +195,7 @@ public class SachbearbeiterEK {
     public void setStatus(SachbearbeiterEK name, Fortbildung fort, String status) {
         for (Fortbildung a : name.fortbildungen.keySet()) {
             if (a.getTitel().equals(fort.getTitel())) {
-                // name.fortbildungen.replace(a, status);
+                name.fortbildungen.replace(a, status);
             }
         }
     }
@@ -258,8 +263,9 @@ public class SachbearbeiterEK {
         }
     }
 
-    public static void loescheFortbildung(SachbearbeiterEK name, Fortbildung fort) {
+    public static void loescheFortbildungVersehentlich(SachbearbeiterEK name, Fortbildung fort) {
 
+        name.fortbildungen.remove(fort);
 
     }
 
