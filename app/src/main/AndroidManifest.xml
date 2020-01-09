@@ -33,6 +33,25 @@
         <activity
             android:name="com.example.iu4.SachbearbeiterAuswaehlenAAS"
             android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.AdminSachbearbeiterErzeugenAAS"
+            android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.AdminSachbearbeiterLoeschenAAS"
+            android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.FortbildungZuordnenAAS"
+            android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.FortbildungLoeschenAAS"
+            android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.SachbearbeiterAS"
+            android:label="UI4" />
+        <activity
+            android:name="com.example.iu4.SachbearbeiterSachbearbeiterEditierenAAS"
+            android:label="UI4" />
+
 
 
     </application>

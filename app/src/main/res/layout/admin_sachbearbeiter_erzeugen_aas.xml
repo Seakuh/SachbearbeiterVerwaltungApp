@@ -9,32 +9,32 @@
         android:id="@+id/Einloggentext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Admin Sachbearbeiter Editieren"
+        android:text="Admin Sachbearbeiter Erzeugen"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <fragment
-        android:id="@+id/sachbearbeiter_name_s_editieren"
+        android:id="@+id/sachbearbeiter_name_s_erzeugen"
         android:name="com.example.iu4.SachbearbeiterNameS"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_weight="1" />
 
     <fragment
-        android:id="@+id/sachbearbeiter_passwort_editieren"
+        android:id="@+id/sachbearbeiter_passwort_erzeugen"
         android:name="com.example.iu4.SachbearbeiterPasswortS"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_weight="1" />
 
     <fragment
-        android:id="@+id/sachbearbeiter_berechtigung_s_editieren"
+        android:id="@+id/sachbearbeiter_berechtigung_s_erzeugen"
         android:name="com.example.iu4.SachbearbeiterBerechtigungS"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_weight="1" />
 
     <fragment
-        android:id="@+id/sachbearbeiter_ok_knopf_s_editieren"
+        android:id="@+id/sachbearbeiter_ok_knopf_s_erzeugen_admin"
         android:name="com.example.iu4.SachbearbeiterOKKnopfS"
         android:layout_width="match_parent"
         android:layout_height="10dp"

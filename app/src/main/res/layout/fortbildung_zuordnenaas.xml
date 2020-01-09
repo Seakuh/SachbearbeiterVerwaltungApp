@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fortbildung zuordnen"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Augsgewaehlter Sachbearbeiter:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/setSachbearbeiterfuerZuordnung"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textSize="25dp" />
+
+    <ListView
+        android:id="@+id/listviewZuordnung"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_key"
+        android:transitionName="listviewZuordnung" />
+
+
+    <TextView
+        android:id="@+id/setStatusTextZuweisen"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="77dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonBelegt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belegt" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBestanden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bestanden" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonZuordnen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zuorden" />
+
+    <Button
+        android:id="@+id/buttonAbbrechen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abbrechen" />
+
+
+</LinearLayout>

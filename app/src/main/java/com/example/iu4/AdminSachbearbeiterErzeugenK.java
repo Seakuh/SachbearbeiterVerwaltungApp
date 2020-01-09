@@ -27,7 +27,7 @@ public class AdminSachbearbeiterErzeugenK {
 
     }
 
-    public void trageNeuenNutzerein(String benutzername, String passwort, String berechtigung) {
+    public boolean trageNeuenNutzerein(String benutzername, String passwort, String berechtigung) {
         System.out.println(benutzername + passwort + berechtigung);
         System.out.println(vergeben(benutzername));
         System.out.println(eingabeBenutzername(benutzername));
@@ -35,7 +35,10 @@ public class AdminSachbearbeiterErzeugenK {
             SachbearbeiterEK neu = new SachbearbeiterEK(benutzername, passwort, berechtigung);
             neu.add();
 
+            return true;
+
         } else {
+            return false;
 
         }
     }
